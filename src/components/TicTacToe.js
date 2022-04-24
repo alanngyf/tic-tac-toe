@@ -1,13 +1,6 @@
 import React, {useState} from 'react';
 import './TicTacToe.css'
 
-// class TicTacToe extends Component {
-//     state = {  } 
-//     render() { 
-//         return ();
-//     }
-// }
-
 const TicTacToe = () => {
     const [turn, setTurn] = useState('x');
     const [cells, setCell] = useState(Array(9).fill(""))
